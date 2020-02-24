@@ -17,8 +17,8 @@ const MainButton = props => {
 const styles = StyleSheet.create({
   button: {
     backgroundColor: Colors.accent,
-    padding: 10,
-    margin: 10,
+    padding: 15,
+    margin: 15,
     borderRadius: 10
   },
   buttonText: {

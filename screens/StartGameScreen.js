@@ -32,10 +32,9 @@ const StartGameScreen = props => {
       setBtnStyle(Dimensions.get("window").width / 4);
     };
     Dimensions.addEventListener("change", updateBtnStyle);
-    console.log("change");
+
     return () => {
       Dimensions.removeEventListener("change", updateBtnStyle);
-      console.log("remove change");
     };
   });
 
